@@ -1,26 +1,23 @@
-# MUNDIAL
+# MUNDIAL DE FUTBOL
 ## Integrantes
-Julian Ceballos Y Nicolas Maya
+Juan Miguel Zambrano Y Nicolas Maya
 ## Descripción
-En una exposición canina se realizan desfiles de ejemplares de diferentes razas. De cada ejemplar se manejan la siguiente información: nombre (el cual debe ser único en toda la exposición), raza, edad y puntos otorgados en la exposición. La fotografía por ahora solo se ingresa el nombre del archivo, por ejemplo: sultan.jpg
-
-El cliente necesita una aplicación que permita manipular la información de los participantes de los desfiles caninos. Además de la información básica, se tiene también la foto de cada perro.
+La aplicación permite visualizar los equipos que participarán y la ficha técnica de sus jugadores. Cada equipo tiene un país de origen, el nombre del director técnico y la ruta de la imagen con la bandera del país que representa. Para cada jugador perteneciente a un equipo se conoce el nombre, la edad, la altura, el peso, el salario, la ruta a la imagen con la foto del jugador y la posición en la que juega: delantero, centrocampista, defensa o arquero.
 
 ## La aplicación permite:
-1. Mostrar la lista de los perros registrados en la exposición, ordenada por raza, puntos o edad.
-2. Mostrar la información de un perro específico.
-3. Registrar un nuevo perro.
-4. Localizar un perro por su nombre.
-5. Buscar el perro ganador de la exposición (el que tiene un mayor puntaje asignado).
-6. Buscar el perro con el menor puntaje.
-7. Buscar el perro más viejo de todos (con mayor edad).
+(1) presentar al usuario la información de un jugador dados el nombre del equipo al que pertenece y el nombre del jugador.
+(2) agregar un equipo al mundial, el cual estará sin jugadores inicialmente.
+(3) agregar un jugador a un equipo (dados el nombre del equipo y toda la información del jugador) 
+(4) calcular el valor de la nómina de un equipo. Este valor corresponde a la suma de los salarios de los jugadores del equipo. El programa debe crear un archivo de texto (en el directorio “data\reportes.txt”), cuyo nombre debe ser el nombre del equipo seguido de un número único generado por el programa con el reporte.
+(5) el programa debe permitir modificar la información de los jugadores del mundial usando un archivo de texto.
 
 ## Objetivo:
-Facilitar la manipulacion de datos en una exposicion canina a traves de la POO.
+Facilitar la manipulacion de datos en un mundial de futbol a traves de la POO.
 
 ## Requisitos
 - Java JDK 
 - IDE Netbeans o Eclipse
+- Apache Tomcat
 
 ## Instalación
 1. Clona el repositorio 
@@ -29,4 +26,4 @@ Facilitar la manipulacion de datos en una exposicion canina a traves de la POO.
 4. Ejecuta el programa.
 
 ## Créditos
-Este programa fue desarrollado por Nicolas Maya y Julian Ceballos.
+Este programa fue desarrollado por Nicolas Maya y Juan Miguel Zambrano.
